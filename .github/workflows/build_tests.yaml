@@ -27,10 +27,10 @@ jobs:
          sudo apt-get install -y google-chrome-stable
       
       - name: Install Dependancies
-        run: dotnet restore SeleniumBasicExercice.sln
+        run: dotnet restore SeleniumBasicExercise.sln
 
       - name: Build solution
-        run: dotnet build SeleniumBasicExercice.sln --no-restore
+        run: dotnet build SeleniumBasicExercise.sln --no-restore
 
       - name: Run TestProject2 tests
         env:
